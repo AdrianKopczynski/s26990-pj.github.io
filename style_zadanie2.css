@@ -1,0 +1,127 @@
+body{
+    background-image: url(https://media.cntraveler.com/photos/5ea883674e5fff00083ccef1/16:9/w_2560%2Cc_limit/Safari-GettyImages-143917249.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0;
+}
+ 
+ form{
+    display: flex;
+    width: 100%;
+    float: left;
+}
+ 
+ footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    left: 0;
+    bottom: 15%;
+    width: 70%;
+    margin-left: 10vw;
+    background-attachment: scroll;
+}
+ 
+ header{
+    float: left;
+    position: fixed;
+    width: 30%;
+    height: 70%;
+    background-color: rgba(255,255,255,0.4);
+}
+ h1{
+    color: purple;
+    font-size: 250%;
+}
+ 
+ ul{
+    margin:0;
+    padding-left: 0;
+}
+ 
+ ul li{
+    list-style-type: none;
+}
+ 
+ table{
+    width: 100%;
+}
+ 
+ th{
+    background-color: rgb(35, 99, 136);
+    color: white;
+}
+ 
+ tr:nth-child(even){
+    background-color: rgb(255, 255, 255,0.5);
+}
+ 
+ td{
+    text-align: center;
+ 
+}
+ 
+ .strona{
+    width: 70vw;
+    height: 70vh;
+    margin-left: 10vw;
+
+}
+ 
+ .glowna{
+    background-color: rgb(150, 178, 214);
+    float: right;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /*margin-bottom: 15%;*/
+    overflow-y: auto;
+    height: 100%;
+    
+}
+ 
+ 
+ .pierwszy{
+    color: white;
+    text-decoration: none;
+}
+ 
+ .lista_pierwsza{
+    background-color: lightskyblue;
+}
+ 
+ .lista_druga{
+    background-color: lightblue;
+}
+ 
+ .lista_pierwsza a{
+    padding-left: 5%;
+    display: block;
+}
+ 
+ .lista_pierwsza a:hover{
+    opacity: 0.5;
+    background-color: red;
+}
+ 
+ .lista_druga a{
+    padding-left: 10%;
+    display: block;
+}
+ 
+ 
+ .kolumna{
+    flex: 50%;
+    margin: 5%;
+    width: 20%;
+}
+.whole{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
